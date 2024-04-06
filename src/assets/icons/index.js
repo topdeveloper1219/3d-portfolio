@@ -30,6 +30,12 @@ import Qr from './qr-code.svg'
 import Simon from './simon.svg'
 import Drum from './drum-kit.svg'
 import Watch from './watch.svg'
+import Iceland from '../favicon.ico'
+import EnginerrByte from './engineerbyte.png'
+import Drawing from './web-drawing.png'
+import Shopper from './logo.png'
+import Password from './password.jpg'
+
 
 export {
     Firebase,
@@ -63,5 +69,11 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    Iceland,
+    EnginerrByte,
+    Drawing,
+    Shopper,
+    Password
+    
 }

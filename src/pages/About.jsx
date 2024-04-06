@@ -81,7 +81,7 @@ const About = () => {
                   </p>
                 </div>
 
-                <ul className='my- list-disc ml-5 space-y-2'>
+                <ul className='my- list-disc ml-5 space-y-2 '>
                   {experience.points.map((point, index) => (
                     <li key={`experience-point-${index}`} className='text-black-500/50 font-normal pl-1 text-sm'>
                       {point}

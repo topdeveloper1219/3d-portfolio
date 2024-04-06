@@ -15,7 +15,7 @@ const Projects = () => {
         </span>
       </h1>
 
-      <p className='text-slate-500 mt-2 leading-relaxed'>
+      <p className='text-slate-500 mt-2 leading-relaxed '>
         Welcome to my project showcase! Here, you'll discover a blend of creativity and technical expertise. 
         From turning ideas into code to crafting solutions that make an impact, each project is a chapter in 
         my journey. Join me as I unravel the stories behind my work – a testament to innovation, dedication, 
@@ -40,7 +40,11 @@ const Projects = () => {
               <h4 className='text-2xl font-poppins font-semibold'>
                 {project.name}
               </h4>
-              <p className='mt-2 text-slate-500'>{project.description}</p>
+              <p className='mt-2 text-slate-500 text-justify w-full'>{project.description}</p>
+              
+
+              <div className="flex justify-between">
+
               <div className='mt-5 flex items-center gap-2 font-poppins'>
                 <Link
                   to={project.link}
@@ -56,6 +60,27 @@ const Projects = () => {
                   className='w-4 h-4 object-contain'
                 />
               </div>
+
+             
+
+              <div className='mt-5 flex items-center gap-2 font-poppins'>
+                <Link
+                  to={project.Github}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='font-semibold text-blue-600'
+                >
+                  Github Link
+                </Link>
+                <img
+                  src={arrow}
+                  alt='arrow'
+                  className='w-4 h-4 object-contain'
+                />
+              </div>
+              </div>
+
+
             </div>
           </div>
         ))}
