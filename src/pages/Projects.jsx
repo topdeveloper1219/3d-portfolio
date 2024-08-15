@@ -48,7 +48,6 @@ const Projects = () => {
               <div className="flex justify-between">
                 <div className="mt-5 flex items-center gap-2 font-poppins">
                   <Link
-                    to={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-blue-600"
