@@ -16,7 +16,7 @@ const About = () => {
           className="blue-gradient_text font-semibold 
         drop-shadow"
         >
-          YinTan
+          Honda Kanjiro
         </span>
       </h1>
 
