@@ -16,7 +16,7 @@ const About = () => {
           className="blue-gradient_text font-semibold 
         drop-shadow"
         >
-          Abhimanyu
+          YinTan
         </span>
       </h1>
 
