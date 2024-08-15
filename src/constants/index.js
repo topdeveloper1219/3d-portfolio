@@ -204,7 +204,7 @@ export const socialLinks = [
         link: 'https://github.com/Abhimanyu668',
     },
     {
-        name: 'LinkedIn',
+        name: 'discord',
         iconUrl: linkedin,
         link: 'https://www.linkedin.com/in/abhimanyu630/',
     }
